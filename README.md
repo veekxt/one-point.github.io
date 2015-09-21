@@ -1,8 +1,6 @@
 VeekXT 的个人主页
 
-github: <http://veekxt.com>
-
-gitcafe: <http://onepoint.tk>
+github_pages: <http://veekxt.com>
 
 使用极简化风格的界面
 
