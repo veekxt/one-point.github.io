@@ -1,0 +1,14 @@
+git init
+git checkout -b gitcafe-pages	//gitcafe主页
+git checkout -b gh-pages	//github主页不需要
+
+git add ./
+git commit -m "first"
+
+git remote add blog git@gitcafe.com:one-point/one-point.git
+git remote add myp git@github.com:one-point/one-point.github.io.git
+git push --set-upstream myp gitcafe-pages
+git push --set-upstream myp gh-pages//github主页不是
+git push --set-upstream myp master
+git push origin :branch-name//删除远程分支
+git push [--force] <远程主机名> <本地分支名>:<远程分支名> //提交的正确姿势

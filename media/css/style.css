@@ -1,0 +1,240 @@
+/*------------------------------------
+* sext
+*
+* @author linghua.zhang@me.com
+* @link http://lhzhang.com/
+* @update 2011-12-20
+* 
+* |/ | (~ (~
+* |\.|._)._)
+*
+* --------------------------------- */
+/***
+
+update by wlzhizhen@163.com
+2014
+
+***/
+body{font-size:14px;word-spacing:1px;
+	margin-left:auto;
+margin-right:auto;
+	font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;background-color:#F5F9FF;
+	/*background-image: url('http://onepoint.gitcafe.io/media/png/body-bg.png');*/} /*主博客颜色*/
+*{padding:0;margin: 0;border:none;outline:none;}
+div{border-radius:3px;}
+.posttitle{font-size:16px;} /*标题大小*/
+a{color:#00C;text-decoration:none;} /*链接颜色*/
+a:visited{color:#00C;} /*已点击链接颜色*/
+a:hover{color:#ff0000;text-decoration:underline;} /*链接指向颜色*/
+hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #dddddd;}
+.truncate{padding:.5em 0;font-size:14px;color:#222;background-color:#F5F7FF;margin-left: 3em;padding:7px;border-radius:3px;}
+p{padding:.5em 0;}
+li{padding:.2em 0;}
+ol,ul{list-style-position:inside;text-indent:2em}
+ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
+code{background-color:#f5fcf5;border: #0099CC solid 1px;padding:3px;margin:PX;border-radius: 2px;}
+pre code{margin:.9em 0;font-size:15px;line-height:1.45;display:block;overflow:auto;background-color:#f5fcf5;margin-left:1em;margin-right:1em;padding:7px;border-radius:3px;border: #0099CC solid 1px;}
+blockquote{display:block;text-align:justify;border-left:4px solid #00e000;background-color: #f8f8f8;}
+blockquote{margin:1em 0em;padding-left:1.5em;}
+blockquote p{margin:0;padding:.5em 0;}
+#container{width:800px;margin:2em auto;display:block;padding:0 2em;background-color:#ffffff;}
+.content{font-size:15px;line-height:24px;}/*主文本区*/
+.content h1{padding:.5em 0;}
+.content img{max-width:640px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
+#tag_cloud{margin-bottom: 1em;}
+#tag_cloud a:hover{color:#00c400 !important;text-decoration:none;}
+.listing-item,.listing-seperator{list-style-type:none;}
+.listing-item a{
+	padding:.2em 1em;
+
+}
+#post-pagination{text-align:right;}
+.listing-item time{color:#999999;}
+.listing-seperator{font-weight:bold;}
+.meta{text-align:right;font-size:12px;color:#888;}
+.pageNav{font-weight:bold;font-size:17px;}
+.pageNavInvalid{font-weight:bold;font-size:17px;color:#D0D0D0;}
+header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
+nav{sans-serif;font-size:14px;text-transform:uppercase;float:left;margin-left:-8em;width:6em;text-align:center;margin-top:2em;}
+nav a{display:block;padding:.7em 1em;color:#0000ff;border-radius:3px;} /*左栏字颜色*/
+nav a:hover{background-color:#00F;text-decoration:none;color:#fff;-webkit-transition:color .2s linear;} /*方块颜色*/
+.post{padding:.5em 0em;}
+h1{font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
+h2{font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
+h3{font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
+h4{font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
+pre,code{font-family:"Courier New","Helvetica Neue",Menlo,"Andale Mono",Consolas,Monaco,monospace;font-size:14px;}
+embed,object,iframe{display:block;margin:4px auto;}
+.gist{font-size: 12px;line-height:1.6;}
+
+footer{
+text-align:center;
+display:block;
+border-top: 1px dashed #CCC;
+}
+
+footer small {
+font-size: 13px;
+color: #AAA;
+}
+
+footer a {
+color: #0000ff;
+text-decoration: none;
+}
+
+footer a:hover {
+border-bottom: 1px dashed #BBB;
+text-decoration: none;
+}
+
+.label {
+font-size:11.25px;
+font-weight:700;
+color:#fff;
+text-transform:uppercase;
+background-color:#999;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+padding:1px 3px 2px;
+}
+
+.label-important {
+background-color:#b94a48;
+}
+
+.label-warning {
+background-color:#f89406;
+}
+
+.label-success {
+background-color:#468847;
+}
+
+.label-info {
+background-color:#3a87ad;
+}
+
+.paginator {
+font: 14px Arial,Helvetica,sans-serif;
+color: #AAA; /*"上一页"的颜色*/
+margin: 20px 0;
+line-height: 150%;
+display: block;
+}
+
+.paginator a,.paginator span{
+padding: 04px;
+margin: 2px;
+text-decoration: none;
+}
+
+.paginator .current-page {
+color: white;
+background: #2E9AFE;/*页码背景颜色*/
+}
+
+.paginator a:hover{
+color: white;
+background: #83BF73;
+}
+.ds-powered-by{display: none;}
+.ds-meta{display: none;}
+
+table.gridtable{
+	margin: 16px;
+}
+
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 6px;
+	border-style: solid;
+	border-color: #060;
+	background-color: #EEE;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 6px;
+	border-style: solid;
+	border-color: #060;
+	background-color: #FFF;
+}
+
+.post ul {
+    background-color: #F6FBF4;
+}
+
+
+.post ul li ul {
+    margin: 0px 0px 0px 3.5em;
+}
+.post h3
+{
+background-color: #F8F8F8;
+border-left-color: #008000;
+border-left-style: solid;
+border-left-width: 5px;
+color: #080;
+font-family: "Microsoft YaHei",Arial;
+font-size: 19px;
+font-weight: 700;
+line-height: 30px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 40px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 0px;
+padding-top: 10px;
+
+}
+textarea{ 
+border: 1px solid #000;
+border-radius: 3px;
+padding: 5px;
+}
+input[type="button"] { 
+    position: relative; 
+    overflow: visible; 
+    display: inline-block; 
+    padding: 0.3em; 
+    border: 1px solid #d4d4d4; 
+    margin: 0;
+    text-decoration: none; 
+    text-shadow: 1px 1px 0 #fff; 
+    font:15px/normal sans-serif; 
+    color: #333; 
+    white-space: nowrap; 
+    cursor: pointer; 
+    outline: none; 
+    background-color: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    -o-background-clip: padding-box; 
+    /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
+    -webkit-border-radius: 0.2em; 
+    -moz-border-radius: 0.2em; 
+    border-radius: 0.3em; 
+    /* IE hacks */
+    zoom: 1; 
+    *display: inline; 
+}
+.ds-login-buttons  ul{text-indent:0em}
+.listing-seperator
+{
+/*color: #a00;*/
+color: #000;
+}

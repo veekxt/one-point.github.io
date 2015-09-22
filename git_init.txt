@@ -1,0 +1,11 @@
+git clone git@github.com:one-point/one-point.github.io.git
+
+git init
+git add ./
+git commit -m "first"
+
+git remote add mypc git@gitcafe.com:one-point/one-point.git
+git remote add myph git@github.com:one-point/one-point.github.io.git
+
+git push -f myph master:master
+git push -f mypc master:gitcafe-pages
