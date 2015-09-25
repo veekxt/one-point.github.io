@@ -11,7 +11,7 @@
 * --------------------------------- */
 /***
 
-update by wlzhizhen@163.com
+update by veekxt@gmail.com
 2014
 
 ***/
@@ -34,8 +34,8 @@ ol,ul{list-style-position:inside;text-indent:2em}
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
 code{background-color:#f5fcf5;border: #0099CC solid 1px;padding:3px;margin:PX;border-radius: 2px;}
 pre code{margin:.9em 0;font-size:15px;line-height:1.45;display:block;overflow:auto;background-color:#f5fcf5;margin-left:1em;margin-right:1em;padding:7px;border-radius:3px;border: #0099CC solid 1px;}
-blockquote{display:block;text-align:justify;border-left:4px solid #00e000;background-color: #f8f8f8;}
-blockquote{margin:1em 0em;padding-left:1.5em;}
+blockquote{display:block;text-align:justify;border-left:4px solid #e0e0e0;background-color: #f8f8f8;}
+blockquote{margin:0.8em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 #container{width:800px;margin:2em auto;display:block;padding:0 2em;background-color:#ffffff;}
 .content{font-size:15px;line-height:24px;}/*主文本区*/
