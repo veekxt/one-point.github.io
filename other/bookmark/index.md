@@ -4,7 +4,7 @@ layout: page
 comments: yes
 ---
 
-教程类的文章见<http://onepoint.tk/other/article/>
+教程类的文章见<http://{{ site.url }}/other/article/>
 
 ### ------其他类------
 
