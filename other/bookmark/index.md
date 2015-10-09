@@ -26,9 +26,10 @@ comments: yes
 [解释一个Shell命令](http://explainshell.com)  
 [Python官方函数手册](https://docs.python.org/2/library/functions.html)  
 [Python2.7 手册 - 中文](http://docs.pythontab.com/python/python2.7/datastructures.html)  
-[廖雪峰-python-git教程](http://www.liaoxuefeng.com/)  
 [python爬虫简单抓取页面](http://www.cnblogs.com/txw1958/archive/2011/12/21/2295698.html)  
+[廖雪峰-python-git教程](http://www.liaoxuefeng.com/)  
 [GitHub-代码托管](https://github.com/)  
+[Git手册](http://git-scm.com/book/zh/v2)  
 [GitCafe-国内代码托管](https://gitcafe.com/)  
 [gitignore自动生成](https://www.gitignore.io/)  
 [stackedit-一个在线markdown编辑器](https://stackedit.io/editor)  
@@ -41,6 +42,6 @@ comments: yes
 [酷壳-某技术博客](http://coolshell.cn/)  
 [Brainfuck主页-一种极小的语言](http://www.muppetlabs.com/~breadbox/bf/)  
 [tetris-wiki-俄罗斯方块wiki](http://tetris.wikia.com/wiki/Tetris_Guideline)  
-
+[unicode查询](http://www.unicode.org/charts/)  
 
 
