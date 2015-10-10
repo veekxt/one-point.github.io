@@ -233,7 +233,7 @@ input[type="button"] {
     *display: inline; 
 }
 input[type="button"].small{ 
-font:13px;
+padding: 2px;
 }
 .ds-login-buttons  ul{text-indent:0em}
 .listing-seperator
