@@ -57,7 +57,7 @@ blockquote p{margin:0;padding:.5em 0;}
 header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
 nav{sans-serif;font-size:14px;text-transform:uppercase;float:left;margin-left:-8em;width:6em;text-align:center;margin-top:2em;}
 nav a{display:block;padding:.7em 1em;color:#0000ff;border-radius:3px;} /*左栏字颜色*/
-nav a:hover{background-color:#00F;text-decoration:none;color:#fff;-webkit-transition:color .2s linear;} /*方块颜色*/
+nav a:hover{background-color:#cce;text-decoration:none;color:#000;-webkit-transition:color .2s linear;} /*方块颜色*/
 .post{padding:.5em 0em;}
 h1{font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
 h2{font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
