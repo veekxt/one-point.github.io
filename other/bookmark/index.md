@@ -28,6 +28,7 @@ comments: yes
 [Python2.7 手册 - 中文](http://docs.pythontab.com/python/python2.7/datastructures.html)  
 [python爬虫简单抓取页面](http://www.cnblogs.com/txw1958/archive/2011/12/21/2295698.html)  
 [廖雪峰-python-git教程](http://www.liaoxuefeng.com/)  
+[阮一峰的网络日志](http://www.ruanyifeng.com)  
 [GitHub-代码托管](https://github.com/)  
 [Git手册](http://git-scm.com/book/zh/v2)  
 [GitCafe-国内代码托管](https://gitcafe.com/)  
