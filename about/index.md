@@ -10,7 +10,7 @@ comments: yes
 
 ----
 
-### 联系方式：
+### 联系我：
 
 {% if site.qq %}
 ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
