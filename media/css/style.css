@@ -232,6 +232,9 @@ input[type="button"] {
     zoom: 1; 
     *display: inline; 
 }
+input[type="button"].small{ 
+font:13px;
+}
 .ds-login-buttons  ul{text-indent:0em}
 .listing-seperator
 {

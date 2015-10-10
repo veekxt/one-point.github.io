@@ -31,7 +31,7 @@ case'.':oup.value+=String.fromCharCode(a[p])}}
 </script>
 
 <form>
-<p>代码(code):<input type=button value="<=清空" onClick="code.value=''")></p>
+<p>代码(code):<input class="small" type=button value="<=清空" onClick="code.value=''")></p>
 <textarea id="code" cols=70 rows=10>
 ++++++++++[>+++++++>++++++++++>+++>+<<<<-]
 >++.
@@ -44,13 +44,13 @@ case'.':oup.value+=String.fromCharCode(a[p])}}
 </textarea>
 <br />
 
-<p>输入流(input):<input type=button value="<=清空" onClick="s_in.value=''")></p>
+<p>输入流(input):<input class="small" type=button value="<=清空" onClick="s_in.value=''")></p>
 <textarea id="s_in" cols=70 rows=5>
 </textarea>
 <br />
 <input type=button value="==执行==" onClick=x(document.getElementById("code").value)>
 <br />
-<p>输出流(output):<input type=button value="<=清空" onClick="s_out.value=''")></p>
+<p>输出流(output):<input class="small" type=button value="<=清空" onClick="s_out.value=''")></p>
 <textarea id="s_out" cols=70 rows=10>
 </textarea>
 </form>
