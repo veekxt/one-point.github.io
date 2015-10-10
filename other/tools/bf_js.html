@@ -22,7 +22,7 @@ case'+':if((a[p]+1)>m)a[p]=n;else{a[p]++};break
 case'-':if((a[p]-1)<n)a[p]=m;else{a[p]--};break
 case']':j=s[j]
 case'[':if(a[p]==0)j=e[j];break
-case',':if(k+1>=y.value.length){a[p]=10;break
+case',':if(k+1>=y.value.length){a[p]=10;break//模拟回车键，有待确认
 u=prompt("Input required. Press Cancel to halt program execution.","")
 if(u==''||u==null){j=z;break}
 else{y.value+=u}}a[p]=y.value.charCodeAt(++k);break
