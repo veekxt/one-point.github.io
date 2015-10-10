@@ -240,7 +240,9 @@ color: #000;
 }
 
 footer {
-     bottom: 0px;
-     position: absolute;
-     width: 100%;
+position: absolute;
+width: 100%;
+clear:both;
+bottom:2px;
 }
+
