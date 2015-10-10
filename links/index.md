@@ -14,4 +14,4 @@ comments: yes
 > 
 >  [icanoncn](http://ps314.com)　　　[AMiracle_](http://itpri.me/)　　　　[我的异想天开](http://www.myfreax.com/)
 > 
->  [荆棘的思念](http://bramblex.pw/)　　[ishare_cn_ms](http://binyuj.tk/)
+>  [荆棘的思念](http://bramblex.pw/)　　[ishare_cn_ms](http://binyuj.tk/)　　　[8pm](http://xrefactor.com)
