@@ -20,6 +20,7 @@ linux下回环设备一般是/dev/loop0,/dev/loop1,......
 如果找不到这些文件，可能是loop模块未加载，使用`modprobe loop`命令加载。
 
 ### 使用
+
 在目录上挂载包含文件系统的文件一般需要两步，
 
 +  用一个循环设备节点连接文件。
@@ -32,8 +33,10 @@ linux下回环设备一般是/dev/loop0,/dev/loop1,......
 
 其中losetup连接节点和文件，mount进行挂载，回想一下挂载iso文件时的命令  
 mount -o loop /path/to/file.iso /path/to/mountdir  
-可以认为直接实现了这两步。  
+可以认为直接实现了这两步。
+
 ### 创建、使用img镜像文件
+
 先用dd创建一个指定大小的文件（例子200M）
 
 `dd if=/dev/zero of=test.img bs=1M count=20`
