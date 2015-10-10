@@ -4,6 +4,10 @@ layout: page
 comments: yes
 ---
 
+夜明け
+
+<audio src="http://7xj4v0.com1.z0.glb.clouddn.com/菊谷知樹%20-%20夜明け.mp3" controls="controls" ></audio>
+
 Nightwish - I Want My Tears Back
 
 <audio src="http://7xj4v0.com1.z0.glb.clouddn.com/Nightwish%20-%20I%20Want%20My%20Tears%20Back.mp3" controls="controls" ></audio>
