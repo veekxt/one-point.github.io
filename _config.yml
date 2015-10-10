@@ -1,4 +1,4 @@
-markdown: rdiscount
+#markdown: rdiscount
 permalink: /:year/:month-:day-:title.html
 destination: _site
 url: veekxt.github.io
