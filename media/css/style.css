@@ -25,7 +25,7 @@ div{border-radius:3px;}
 .posttitle{font-size:16px;} /*标题大小*/
 a{color:#00C;text-decoration:none;} /*链接颜色*/
 a:visited{color:#00C;} /*已点击链接颜色*/
-a:hover{color:#ff0000;text-decoration:underline;} /*链接指向颜色*/
+a:hover{color:#ff0000;text-decoration:none;} /*链接指向颜色*/
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #dddddd;}
 .truncate{padding:.5em 0;font-size:14px;color:#222;background-color:#F5F7FF;margin-left: 3em;padding:7px;border-radius:3px;}
 p{padding:.5em 0;}
