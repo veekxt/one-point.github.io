@@ -238,3 +238,9 @@ input[type="button"] {
 /*color: #a00;*/
 color: #000;
 }
+
+footer {
+     bottom: 0px;
+     position: absolute;
+     width: 100%;
+}
