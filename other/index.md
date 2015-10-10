@@ -5,7 +5,7 @@ comments: yes
 ---
 
 
-[一些非常好的文章/教程 索引](/other/article)
+[一些文章/教程 索引](/other/article)
 
 - - -
 
