@@ -20,6 +20,7 @@ comments: yes
 
 ### ------技术类-------
 [开源中国- 在线工具](http://tool.oschina.net/)  
+[另一些在线工具](http://tool.lu/)  
 [GNU官网 - 开源相关](http://www.gnu.org)  
 [ArchLinuxWiki](https://wiki.archlinux.org/)  
 [Linux中文man在线手册](http://os.51cto.com/linuxman/)  
